@@ -1,0 +1,28 @@
+
+module.exports = Object.freeze({
+    MODAL_BODY_TYPES : {
+        USER_DETAIL : "USER_DETAIL",
+        LEAD_ADD_NEW : "LEAD_ADD_NEW",
+        UPDATE_LEAD : "UPDATE_LEAD",
+        UPDATE_ORDER : "UPDATE_ORDER",
+        ROOM_ADD_NEW : "ROOM_ADD_NEW",
+        BOOKING_ADD_NEW : "BOOKING_ADD_NEW",
+        FOOD_ADD_NEW : "FOOD_ADD_NEW",
+        FOOD_UPDATE : "FOOD_UPDATE",
+        ORDER_ADD_NEW : "ORDER_ADD_NEW",
+        CONFIRMATION : "CONFIRMATION",
+        DEFAULT : "",
+    },
+
+    RIGHT_DRAWER_TYPES : {
+        NOTIFICATION : "NOTIFICATION",
+        CALENDAR_EVENTS : "CALENDAR_EVENTS",
+    },
+
+    CONFIRMATION_MODAL_CLOSE_TYPES : {
+        LEAD_DELETE : "LEAD_DELETE",
+        ORDER_DELETE : "ORDER_DELETE",
+        BOOKING_DELETE : "BOOKING_DELETE",
+        FOOD_DELETE : "FOOD_DELETE"
+    },
+});
